@@ -1,11 +1,12 @@
-body{
+body {
   margin: 0;
-  font-family: 'Calibri';
+  font-family: "Calibri";
   background: #171c30;
 }
 
-.HomeLayout{
+.HomeLayout {
   display: flex;
+  justify-content: center;
   margin: 0 auto;
   min-height: 100vh;
 }

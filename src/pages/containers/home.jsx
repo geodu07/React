@@ -25,8 +25,7 @@ class Home extends Component {
   render(){
     return(
       <HomeLayout>
-        
-        <Related/>
+      
         <Categories categories={this.props.data.categories} 
         handleOpenModal={this.handleOpenModal}
         />
